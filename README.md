@@ -1,1 +1,2 @@
-This repository is a template for documenting BlueStamp Engineering projects. Users should replace this text with a description of what their project is and what their repository holds. 
+This project is a pair of smart glasses that can display simple information via a transparent OLED screen, and will have speech recognition for voice commands.
+
