@@ -34,9 +34,13 @@ For your second milestone, explain what you've worked on since your previous mil
 # First Milestone
 My project is a pair of smart glasses that will have a few simple functions such as displaying time, date, or documents, and voice commands using text recognition. It will utilize a Raspberry Pi for the "brains" of the glasses, since it has bluetooth and wifi capabilities. It will use a 1.51 inch wide transparent OLED screen to display information in front of the wearer's eyes. I have set up the Raspberry Pi on a deskop here in order to download the needed programs and files. The Pi will control the other components and run all the required code, including the OLED screen, a discreet earpiece, and every software function. In my future milestones, I will CAD and 3D-print a casing for the Pi to rest in next to the glasses, then get starting with the code. I have only basic skills on CAD and programming, so those would be my next main challenges.
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QWJzpe3_Zj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+# Starter Project
+
+I chose the 006 Useless Box as my starter project since it involved multiple aspects of engineering; it required soldering, motor control, and physical assembly.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zXdnlKfFbyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
