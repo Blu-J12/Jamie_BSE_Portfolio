@@ -5,7 +5,7 @@ This project is a pair of smart glasses that can display simple information via 
 |:--:|:--:|:--:|:--:|
 | Jamie L | Archbishop Mitty | Programming, Mechanical/Electrical Engineering | Sophomore
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+<!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
   
@@ -48,7 +48,7 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
 
-```python
+<!--```python
 print("Hello World!")
 ```
 
