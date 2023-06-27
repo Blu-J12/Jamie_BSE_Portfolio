@@ -50,7 +50,7 @@ Here's where you'll put your code. The syntax below places it into a block of co
 
 <!---```python
 print("Hello World!")
-```
+```--->
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
@@ -58,14 +58,26 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Raspberry Pi Zero W | Brains of the glasses | $15.00 | <a href="https://www.pishop.us/product/raspberry-pi-zero-w/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Bluetooth Earbuds | Audio information | $11.99 | <a href="https://www.amazon.com/BEBEN-Wireless-Bluetooth-Headphones-Waterproof/dp/B09SFZ7JZ8/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| .96in Transparent OLED Display | Visual information | $7.29 | <a href="https://www.amazon.com/HiLetgo-Serial-128X64-Display-Color/dp/B06XRCQZRX/ref=asc_df_B06XRBTBTB/?tag=&linkCode=df0&hvadid=312232463708&hvpos=&hvnetw=g&hvrand=18168632221262009846&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-563271619351&ref=&adgrpid=57656765450&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
+| Battery Bank | Power Source | $17.99 | <a href="https://www.amazon.com/Anker-PowerCore-Ultra-Compact-High-Speed-Technology/dp/B01CU1EC6Y"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Power Supply Cable | RasPi Power | $9.95 | <a href="https://www.amazon.com/CanaKit-Raspberry-Supply-Adapter-Listed/dp/B00MARDJZ4"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| HDMI Cable (Mini to Full) | RasPi to monitor | $8.79 | <a href="https://www.amazon.com/AmazonBasics-High-Speed-Mini-HDMI-Adapter-Cable/dp/B014I8UEGY/"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Micro SD Card | RasPi OS | $5.60 | <a href="hhttps://www.amazon.com/Center-Memory-Adapter-Mobile-Storage/dp/B09MC3MKYS"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Keyboard and Mouse | Navigate RasPi on desktop | $15.19 | <a href="https://www.amazon.com/Rii-Ultra-slim-Wireless-Multimedia-Raspberry/dp/B07BF3LFN3"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Non-prescription Glasses | Base of project | $10.99 | <a href="https://www.amazon.com/GQUEEN-201512-Fashion-Rectangular-Glasses/dp/B00ZRD1MEI/"> Link </a> |
 
-# Other Resources/Examples
+
+<!---# Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
