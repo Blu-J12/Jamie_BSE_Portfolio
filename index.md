@@ -1,5 +1,5 @@
 # Smart Glasses
-This project is a pair of smart glasses that can display simple information via a transparent OLED screen, and will have speech recognition for voice commands. ADD MORE
+This project is a compact wearable computer, in the form of glasses. It makes use of a Raspberry Pi, which outputs into a small screen. The output is brought in front of the user’s eyes via the image reflected from the OLED screen. It can display simple information such as time, date, and short documents. It will additionally have speech to text in order to receive voice commands, using discreet bluetooth earphones for audio information relay.  
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -31,16 +31,15 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QWJzpe3_Zj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 # First Milestone
 My project is a pair of smart glasses that will have a few simple functions such as displaying time, date, or documents, and voice commands using text recognition. It will utilize a Raspberry Pi for the "brains" of the glasses, since it has bluetooth and wifi capabilities. It will use a reflection from a .96 inch OLED screen to display information in front of the wearer's eyes. I have set up the Raspberry Pi on a deskop in order to download the needed programs and files. The Pi will control the other components and run all the required code, including the OLED screen, a discreet earpiece, and every software function. In my future milestones, I will CAD and 3D-print a casing for the Pi to rest in next to the glasses, then get started with the code. I have only basic skills on CAD and programming, so those would be my next main challenges.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QWJzpe3_Zj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zXdnlKfFbyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Starter Project
-
 I chose the 006 Useless Box as my starter project since it involved multiple aspects of engineering; it required soldering, motor control, and physical assembly. A useless box is, as demonstrated above, a device that turns itself off when activated. When the lever on the box is flipped, the servo with an arm attatched is powered, coming up to the top of the box and flipping the lever so that the servo turns the other way instead. When it goes back to its original position inside the box, it hits a switch that turns itself off.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zXdnlKfFbyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <!--# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
