@@ -1,5 +1,5 @@
 # Smart Glasses
-This project is a compact wearable computer, in the form of glasses. It makes use of a Raspberry Pi, which outputs into a small screen. The output is brought in front of the user’s eyes via the image reflected from the OLED screen. It can display simple information such as time, date, and short documents. It will additionally have speech to text in order to receive voice commands, using discreet bluetooth earphones for audio information relay.  
+This project is a compact wearable computer, in the form of glasses. It will have a few simple functions such as displaying time, date, or documents, and voice commands using text recognition. It will utilize a Raspberry Pi 0 W for the "brains" of the glasses, since the model has built-in bluetooth and wifi capabilities. It will use a reflection from a .96 inch OLED screen to display information in front of the wearer's eyes. The Pi will control the other components and run all the required code, including the OLED screen, a discreet earpiece, and software function. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -20,14 +20,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 
-<!--# Second Milestone
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+# Second Milestone
+By the end of the second milestone, I had finished all hardware design and assembly, and enabled the headless setup on my Raspberry Pi. With Onshape, I made the componenets that would attatch the Raspberry Pi, OLED screen, and reflector to an arm that would extend out of the glasses. For the arm, I had to go through three iterations due to faulty printing as well as some design issues, such as durability and length. I then assembled the printed parts and adjusted the angle of the reflector so that the user could properly see the image. My next goal would be to program the glasses for its functions.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 
@@ -35,7 +29,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QWJzpe3_Zj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-My project is a pair of smart glasses that will have a few simple functions such as displaying time, date, or documents, and voice commands using text recognition. It will utilize a Raspberry Pi for the "brains" of the glasses, since it has bluetooth and wifi capabilities. It will use a reflection from a .96 inch OLED screen to display information in front of the wearer's eyes. I have set up the Raspberry Pi on a deskop in order to download the needed programs and files. The Pi will control the other components and run all the required code, including the OLED screen, a discreet earpiece, and every software function. In my future milestones, I will CAD and 3D-print a casing for the Pi to rest in next to the glasses, then get started with the code. I have only basic skills on CAD and programming, so those would be my next main challenges.
+For my first milestone, I set up a desktop environment on my Raspberry Pi, and soldered all of my componenets and ensured that they work properly. I had a lot of trouble with the initial transparent screen that I was using for the display, and I eventually had to switch to an alternative design, which used a smaller screen and its reflection to show the user information. I also had to transition from a SPI connection to I2C. In my future milestones, I will CAD and 3D-print a casing for the Pi to rest in next to the glasses, then get started with the code. I have only basic skills on CAD and programming, so those would be my next main challenges.
 
 # Starter Project
 
@@ -61,7 +55,7 @@ print("Hello World!")
 |:--:|:--:|:--:|:--:|
 | Bluetooth Earbuds | Audio information | $11.99 | <a href="https://www.amazon.com/BEBEN-Wireless-Bluetooth-Headphones-Waterproof/dp/B09SFZ7JZ8/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| .96in Transparent OLED Display | Visual information | $7.29 | <a href="https://www.amazon.com/HiLetgo-Serial-128X64-Display-Color/dp/B06XRCQZRX/ref=asc_df_B06XRBTBTB/?tag=&linkCode=df0&hvadid=312232463708&hvpos=&hvnetw=g&hvrand=18168632221262009846&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-563271619351&ref=&adgrpid=57656765450&th=1"> Link </a> |
+| .96in OLED Display | Visual information | $7.29 | <a href="https://www.amazon.com/HiLetgo-Serial-128X64-Display-Color/dp/B06XRCQZRX/ref=asc_df_B06XRBTBTB/?tag=&linkCode=df0&hvadid=312232463708&hvpos=&hvnetw=g&hvrand=18168632221262009846&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-563271619351&ref=&adgrpid=57656765450&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Battery Bank | Power Source | $17.99 | <a href="https://www.amazon.com/Anker-PowerCore-Ultra-Compact-High-Speed-Technology/dp/B01CU1EC6Y"> Link </a> |
 |:--:|:--:|:--:|:--:|
