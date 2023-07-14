@@ -7,23 +7,17 @@ This project is a compact wearable computer, in the form of glasses. It will hav
 
 <!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+![Headstone Image](logo.svg)--->
   
-<!---# Final Milestone
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+# Final Milestone
+I programmed some basic functions into my glasses at my third milestone. These include a simple boot screen, time function with a clock diagram, and image/file display. Since I usually do not program in Python and therefore had to get introduced to a completely new language, it took me a little to learn the fundamental keywords and their respective syntaxes. Additionally, I had to use many different libraries and modules. I also set up SSH and VNC on my Raspberry Pi so that I could access its screen and terminal on the monitor of my laptop without having to use an external monitor and keyboard/mouse. Howver, the Wifi settings at the school seem to be made so that it blocks the signals, so unfortunately it did not work. 
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8OlgK4KyGKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Second Milestone
-By the end of the second milestone, I had finished all hardware design and assembly, and enabled the headless setup on my Raspberry Pi. With Onshape, I made the componenets that would attatch the Raspberry Pi, OLED screen, and reflector to an arm that would extend out of the glasses. For the arm, I had to go through three iterations due to faulty printing as well as some design issues, such as durability and length. I then assembled the printed parts and adjusted the angle of the reflector so that the user could properly see the image. My next goal would be to program the glasses for its functions.
+By the end of the second milestone, I had finished all hardware design and assembly, and enabled the headless setup on my Raspberry Pi. With Onshape, I made the componenets that would attatch the Raspberry Pi, OLED screen, and reflector to an arm that would extend out of the glasses. For the arm, I had to go through three iterations due to faulty printing as well as some design issues, such as durability and arm length. I then assembled the printed parts and adjusted the angle of the reflector so that the user could properly see the image. My next goal would be to program the glasses for its functions.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AWz9-APTujE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
 
@@ -35,7 +29,8 @@ For my first milestone, I set up a desktop environment on my Raspberry Pi, and s
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zXdnlKfFbyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-I chose the 006 Useless Box as my starter project since it involved multiple aspects of engineering; it required soldering, motor control, and physical assembly. A useless box is, as demonstrated above, a device that turns itself off when activated. When the lever on the box is flipped, the servo with an arm attatched is powered, coming up to the top of the box and flipping the lever so that the servo turns the other way instead. When it goes back to its original position inside the box, it hits a switch that turns itself off.
+Links: <a href = "https://www.makershed.com/products/the-useless-machine-kit-soldering"> Product page, </a> <a href = "http://www.spikenzielabs.com/Downloadables/uselessmachine/Useless-Machine-Soldering-Edition.pdf"> Instructions </a> 
+I chose the 006 Useless Box as my starter project since it involved multiple aspects of engineering; it required soldering, motor control, and physical assembly. A useless box is, as demonstrated above, a device that turns itself off when activated. When the lever on the box is flipped, the servo with an arm attatched is powered, coming up to the top of the box and flipping the lever so that the servo turns the other way instead. When it goes back to its original position inside the box, it hits a switch that turns itself off. 
 
 <!--# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
@@ -69,6 +64,9 @@ print("Hello World!")
 |:--:|:--:|:--:|:--:|
 | Non-prescription Glasses | Base of project | $10.99 | <a href="https://www.amazon.com/GQUEEN-201512-Fashion-Rectangular-Glasses/dp/B00ZRD1MEI/"> Link </a> |
 
+# Documents Referenced
+
+<a href = "https://www.instructables.com/Smart-Glasses-V2/"> Initial Idea, </a> <a href = "https://www.raspberrypi-spy.co.uk/2018/04/i2c-oled-display-module-with-raspberry-pi/"> Screen Configuration, </a> <a href = "https://www.hackster.io/petewarden/recognizing-speech-with-a-raspberry-pi-50b0e6"> Speech Recognition Library </a>
 
 <!---# Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
