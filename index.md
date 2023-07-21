@@ -8,8 +8,8 @@ This project is a compact wearable computer, in the form of glasses. It will hav
 
 <!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**--->
 
-![Headstone Image](Jamie-Project.png)
-
+<!---![Headstone Image](Jamie-Project.png)--->
+<img src="Jamie-Project.png" width="400">
   
 # Final Milestone
 
