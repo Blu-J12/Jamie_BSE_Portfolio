@@ -9,7 +9,7 @@ This project is a compact wearable computer, in the form of glasses. It will hav
 <!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**--->
 
 <!---![Headstone Image](Jamie-Project.png)--->
-<img src="Jamie-Project.png" width="400">
+<img src="Jamie-Project.png" width="500">
   
 # Final Milestone
 
@@ -39,8 +39,12 @@ For my first milestone, I set up a desktop environment on my Raspberry Pi, and s
 Links: <a href = "https://www.makershed.com/products/the-useless-machine-kit-soldering"> Product page, </a> <a href = "http://www.spikenzielabs.com/Downloadables/uselessmachine/Useless-Machine-Soldering-Edition.pdf"> Instructions </a> <br>
 I chose the 006 Useless Box as my starter project since it involved multiple aspects of engineering; it required soldering, motor control, and physical assembly. A useless box is, as demonstrated above, a device that turns itself off when activated. When the lever on the box is flipped, the servo with an arm attatched is powered, coming up to the top of the box and flipping the lever so that the servo turns the other way instead. When it goes back to its original position inside the box, it hits a switch that turns itself off. 
 
-<!---# Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. --->
+# Schematics 
+
+<img src="i2c_oled_128x64_raspberry_pi_wiring.png" width="500">
+
+This is a Raspberry Pi 3B, while my Pi was a Zero W. They, however, do share the same pinouts. This wiring is the one I used for my screen. 
+
 
 # Code
 
