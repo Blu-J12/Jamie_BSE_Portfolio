@@ -1,6 +1,7 @@
 # Smart Glasses
 This project is a compact wearable computer, in the form of glasses. It will have a few simple functions such as displaying time, date, or documents, and voice commands using text recognition. It will utilize a Raspberry Pi 0 W for the "brains" of the glasses, since the model has built-in bluetooth and wifi capabilities. It will use a reflection from a .96 inch OLED screen to display information in front of the wearer's eyes. The Pi will control the other components and run all the required code, including the OLED screen, a discreet earpiece, and software function. 
 
+
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Jamie L | Archbishop Mitty | Programming, Mechanical/Electrical Engineering | Sophomore
@@ -8,22 +9,28 @@ This project is a compact wearable computer, in the form of glasses. It will hav
 <!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**--->
 
 ![Headstone Image](Jamie-Project.png)
+
   
 # Final Milestone
-I programmed some basic functions into my glasses at my third milestone. These include a simple boot screen, time function with a clock diagram, and image/file display. Since I usually do not program in Python and therefore had to get introduced to a completely new language, it took me a little to learn the fundamental keywords and their respective syntaxes. Additionally, I had to use many different libraries and modules. I also set up SSH and VNC on my Raspberry Pi so that I could access its screen and terminal on the monitor of my laptop without having to use an external monitor and keyboard/mouse. Howver, the Wifi settings at the school seem to be made so that it blocks the signals, so unfortunately it did not work. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8OlgK4KyGKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+I programmed some basic functions into my glasses at my third milestone. These include a simple boot screen, time function with a clock diagram, and image/file display. Since I usually do not program in Python and therefore had to get introduced to a completely new language, it took me a little to learn the fundamental keywords and their respective syntaxes. Additionally, I had to use many different libraries and modules. I also set up SSH and VNC on my Raspberry Pi so that I could access its screen and terminal on the monitor of my laptop without having to use an external monitor and keyboard/mouse. Howver, the Wifi settings at the school seem to be made so that it blocks the signals, so unfortunately it did not work. 
+
+
 # Second Milestone
-By the end of the second milestone, I had finished all hardware design and assembly, and enabled the headless setup on my Raspberry Pi. With Onshape, I made the componenets that would attatch the Raspberry Pi, OLED screen, and reflector to an arm that would extend out of the glasses. For the arm, I had to go through three iterations due to faulty printing as well as some design issues, such as durability and arm length. I then assembled the printed parts and adjusted the angle of the reflector so that the user could properly see the image. My next goal would be to program the glasses for its functions.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AWz9-APTujE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+By the end of the second milestone, I had finished all hardware design and assembly, and enabled the headless setup on my Raspberry Pi. With Onshape, I made the componenets that would attatch the Raspberry Pi, OLED screen, and reflector to an arm that would extend out of the glasses. For the arm, I had to go through three iterations due to faulty printing as well as some design issues, such as durability and arm length. I then assembled the printed parts and adjusted the angle of the reflector so that the user could properly see the image. My next goal would be to program the glasses for its functions.
+
 
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QWJzpe3_Zj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For my first milestone, I set up a desktop environment on my Raspberry Pi, and soldered all of my componenets and ensured that they work properly. I had a lot of trouble with the initial transparent screen that I was using for the display, and I eventually had to switch to an alternative design, which used a smaller screen and its reflection to show the user information. I also had to transition from a SPI connection to I2C. In my future milestones, I will CAD and 3D-print a casing for the Pi to rest in next to the glasses, then get started with the code. I have only basic skills on CAD and programming, so those would be my next main challenges.
+
 
 # Starter Project
 
@@ -236,6 +243,8 @@ while True:
     print(' ')
 
 ```
+Sadly, the bluealsa library (aplay, arecord) here does not work on Bullseye distribution. I was however succesful in bypassing such restrictions by using Bookworm from instructions here: [https://robotzero.one/raspberry-pi-zero-voice-controller/](url)
+
 
 # Bill of Materials
 
